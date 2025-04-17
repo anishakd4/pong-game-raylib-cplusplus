@@ -15,10 +15,9 @@ cmake --build .
 
 `RAYLIB_PATH=$(brew --prefix raylib)`
 
-`
+```
 g++ main.cpp -o rayapp \
  -I"$RAYLIB_PATH/include" \
   -L"$RAYLIB_PATH/lib" \
  -lraylib -framework OpenGL -framework Cocoa -framework IOKit -framework CoreAudio
-
-`
+```
